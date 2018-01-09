@@ -85,31 +85,31 @@ This API offers the following endpoint :
 
 **Dev Environnement**
 
--Node Js
--Atom Editor
--Code Linting : JsLint pluging for atom
+- Node Js
+- Atom Editor
+- Code Linting : JsLint pluging for atom
 
 **Testing Environnement**
 
 I have set up Environnement for TDD : test driven developpement
 
--PostMan : to help build and test Restful API
--nodemon : Nodejs server auto-reload  and watching file changes
--mocha,chai,chaiHttp : testing API and functions
--istambul : testing coverage
+- PostMan : to help build and test Restful API
+- nodemon : Nodejs server auto-reload  and watching file changes
+- Mocha,chai,chaiHttp : testing API and functions
+- istambul : testing coverage
 
 To test developement => do npm test
 
 
 **List of steps**
 
-  _ Endpoint that takes a list of tasks and their locations and return optimal schedule minimizing driving timeout
-    _ Take list of location and get optimal road minimizing time using google Directions API [ DRIVING , OPTIMIZE ]
-    _ Since the travel is optimal and trafic is not taken into account, we could just add tasks duration.
+    - Endpoint that takes a list of tasks and their locations and return optimal schedule minimizing driving timeout
+    - Take list of location and get optimal road minimizing time using google Directions API [ DRIVING , OPTIMIZE ]
+    - Since the travel is optimal and trafic is not taken into account, we could just add tasks duration.
 
 **Optimisation**
 
-  _ In order to get google Direction API optimise and recognize waypoint, it should take STOPs location not just any location 
+    - In order to get google Direction API optimise and recognize waypoint, it should take STOPs location not just any location 
     => use ROAD API to convert location to nearest road location
-    _ For the tests, I've used location waypoints.
-    _ Google Directions API return as result nearest road location to waypoints.
+    - For the tests, I've used location waypoints.
+    - Google Directions API return as result nearest road location to waypoints.
