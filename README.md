@@ -107,7 +107,7 @@ To test developement => do npm test
     _ Take list of location and get optimal road minimizing time using google Directions API [ DRIVING , OPTIMIZE ]
     _ Since the travel is optimal and trafic is not taken into account, we could just add tasks duration.
 
-**Optimisation **
+**Optimisation**
 
   _ In order to get google Direction API optimise and recognize waypoint, it should take STOPs location not just any location 
     => use ROAD API to convert location to nearest road location
